@@ -1,0 +1,41 @@
+body {
+    background-color: rgba(56, 56, 56);
+    background: url('bg2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.container {
+    text-align: center;
+    margin-top: 125px;
+}
+
+.container h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FF8C32;
+    text-shadow: 5px 5px 5px black;
+}
+
+.container .content {
+    color: beige;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    text-shadow: 3px 3px 5px black;
+}
+
+#search {
+    border-radius: 8px;
+    height: 25px;
+    text-align: center;
+}
+
+.temp {
+    font-size: 30px;
+}
+
+.status {
+    text-transform: capitalize;
+}
